@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.Repository", "TGKW.Repository\TGKW.Repository.csproj", "{B7869AD7-168E-46A4-9AAE-3ECFC3F7EFC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.ModelFirst", "TGKW.ModelFirst\TGKW.ModelFirst.csproj", "{B7869AD7-168E-46A4-9AAE-3ECFC3F7EFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

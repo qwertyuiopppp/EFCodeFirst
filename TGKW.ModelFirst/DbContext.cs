@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 
-namespace TGKW.Repository;
+namespace TGKW.ModelFirst;
 
 public class DbContext : Microsoft.EntityFrameworkCore.DbContext
 {
