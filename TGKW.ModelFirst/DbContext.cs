@@ -7,6 +7,12 @@ public class DbContext : Microsoft.EntityFrameworkCore.DbContext
 {
     public DbSet<SysUser>  SysUsers { get; set; }
     
+    
+    public DbContext(DbContextOptions<DbContext> options)
+        : base(options)
+    {
+    }
+    
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // 配置 MySQL 连接字符串

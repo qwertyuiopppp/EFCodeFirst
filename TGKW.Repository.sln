@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.CodeFirst", "TGKW.Code
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.CodeFirst.Entry", "TGKW.CodeFirst.Entry\TGKW.CodeFirst.Entry.csproj", "{1A38CC50-67FF-4688-94E6-50C747FA2C38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.ModelFirst.Migrations", "TGKW.ModelFirst.Migrations\TGKW.ModelFirst.Migrations.csproj", "{7C02215E-B673-493E-9529-168DE989CA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGKW.ModelFirst.Entry", "TGKW.ModelFirst.Entry\TGKW.ModelFirst.Entry.csproj", "{EF3A1B1D-D309-4E95-91F9-8C4DA828151D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{1A38CC50-67FF-4688-94E6-50C747FA2C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A38CC50-67FF-4688-94E6-50C747FA2C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A38CC50-67FF-4688-94E6-50C747FA2C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C02215E-B673-493E-9529-168DE989CA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C02215E-B673-493E-9529-168DE989CA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C02215E-B673-493E-9529-168DE989CA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C02215E-B673-493E-9529-168DE989CA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3A1B1D-D309-4E95-91F9-8C4DA828151D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3A1B1D-D309-4E95-91F9-8C4DA828151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3A1B1D-D309-4E95-91F9-8C4DA828151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3A1B1D-D309-4E95-91F9-8C4DA828151D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

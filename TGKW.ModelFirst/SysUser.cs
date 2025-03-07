@@ -31,4 +31,7 @@ public class SysUser
     
     [Column("IsDeleted")]
     public bool IsDeleted { get; set; }
+    
+    [Column("CreateUserId")]
+    public long CreateUserId { get; set; }
 }

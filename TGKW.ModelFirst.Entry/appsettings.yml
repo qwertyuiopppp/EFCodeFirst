@@ -1,0 +1,11 @@
+ConnectionStrings:
+  MySQL: "Server=localhost;uid=root;password=qQ123456!;Database=tgkw_db;"
+  
+Migrations:
+  Assembly:"TGKW.ModelFirst.Migrations"
+  
+Logging:
+  LogLevel:
+    Default: Information
+    Microsoft: Warning
+    Microsoft.Hosting.Lifetime: Information

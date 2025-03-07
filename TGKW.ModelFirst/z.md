@@ -26,3 +26,20 @@ dotnet ef database update 0 # 回滚所有迁移
 
 dotnet ef migrations remove # 删除最后一次迁移（重复执行可删除多个）
 ```
+
+## 多项目迁徙
+
+```
+
+dotnet ef migrations add InitialCreate \
+    --startup-project ./TGKW.ModelFirst.Entry \
+    --project ./TGKW.ModelFirst.Migrations \
+    --context DbContext
+
+dotnet ef database update\
+    --startup-project ./TGKW.ModelFirst.Entry \
+    --project ./TGKW.ModelFirst.Migrations \
+    --context DbContext
+    
+       
+```
