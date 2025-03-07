@@ -25,10 +25,4 @@ public class SysUser
     
     [Column("CreateTime")]
     public DateTime? CreateTime { get; set; }
-    
-    [Column("UpdateTime")]
-    public DateTime? UpdateTime { get; set; }
-    
-    [Column("IsDeleted")]
-    public bool IsDeleted { get; set; }
 }
