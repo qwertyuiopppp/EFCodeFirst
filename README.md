@@ -1,1 +1,1 @@
-ef mysql code first
+ef mysql model first
