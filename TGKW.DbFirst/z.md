@@ -1,4 +1,4 @@
-# code first
+# db first
 
 ## 安装 package
 1.  Microsoft.EntityFrameworkCore.Design
